@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta content="text/html; charset=utf-8" http-equiv="content-type">
+<meta name="viewport" content="width=device-width, intial-scale=1">
+<title>format</title>
+<style>
+
+
+  body {
+    margin: 0%;
+    padding: 0%;
+   	background: linear-gradient(90deg, #4b4b52, #676378);		
+font-family: Arial, sans-serif;
+  }
+  *{
+  padding: 0%;
+  margin: 0%;
+  }
+  
+  
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	position: unset;
+
+.screen {		
+	background-image: url('add.jpg');		
+	height: 850px;
+	width: 700px;	
+	box-shadow: 0px 0px 24px #000000;
+	background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.screen__content {
+	z-index: 1;
+	position: relative;	
+	height: 100%;
+}
+.screen__background {		
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 0;
+	-webkit-clip-path: inset(0 0 0 0);
+	clip-path: inset(0 0 0 0);	
+}
+ .header {
+    background: linear-gradient(to right, #7fb0bee0 50%, #74b9c4f7 50%);
+    color: white;
+    padding: 30px;
+    text-align: center;
+  }
+.color {
+position:absolute;
+    background-color:rgba(63, 62, 62, 0.607);
+    color: white;
+	bottom:00px;
+    padding: 30px;
+	height:30.7%;
+	width:62%;
+    text-align: center;
+	
+	
+	}
+
+.center {
+    background: linear-gradient(to right, #61A3B1 50%, #78bbc985 50%); 
+    padding: 40px;
+    text-align: center;
+	position: absolute;
+	bottom:33%;
+			width:40.8%;
+
+
+  }
+ 
+.footer {
+  
+    text-align: center;
+    background: linear-gradient(to right, transparent 50%, #70bbd4ce 50%);
+    color: white;
+    padding: 40px;
+	position: absolute;
+	
+			top:104.2%;
+			width:40.8%;
+			z-index: 1;
+}
+
+
+.top-left-text {
+    position: absolute;
+    top: 25%; 
+    left: 10%; 
+    color: white; 
+	}
+	.top-left-text1{
+		background-color:#3f3e3e9b;
+width:13%;
+font-size: 35px;
+	}
+	.top-left-text2{
+		background-color:rgba(63, 62, 62, 0.607);
+width:15%;
+	}
+	.top-left-text3{
+		background-color: rgba(0, 0, 0, 0.5);
+width:65%;
+	}
+	.top-left-text4{
+		background-color: rgba(0, 0, 0, 0.5);
+width:105%;
+	}
+	
+	.back{
+	position: absolute;
+    top: 17%; 
+    left: 10%; 
+    color: white; 
+	font-weight: 300;
+	}
+	.back1{
+	position: absolute;
+    top: 50%; 
+    left: 10%; 
+    color: white; 
+	}
+	.back2{
+	position: absolute;
+    top: 0%; 
+    left: 10%; 
+    color: white; 
+	}
+	.level{
+	position: absolute;
+    top: 20px; 
+    left: 10px; 
+    color: white; 
+	}
+	.last1{
+	position: absolute;
+    top: 15px; 
+    right: 30px; 
+    color: white; 
+		font-weight: 300;
+		
+		
+	}
+	.last2{
+	position: absolute;
+    top: 40px; 
+    right: 30px; 
+    color: white; 
+		font-weight: 300;
+	}
+	
+	}
+	.last3{
+	position: absolute;
+    top: 65px; 
+    right: 30px; 
+    color: white; 
+		font-weight: 300;
+	}
+	.con{
+	position: absolute;
+    top: 50%; 
+    left: 10%; 
+    color: white; 
+		font-weight: 300;}
+		
+	.top-left-text0 {
+    position: absolute;
+    top: 74%; 
+    left: 31%; 
+    color: white; 
+
+	}
+	.letter{
+	color: white;
+	letter-spacing:5px;
+	 
+	}
+	
+	.box{
+	border: 1px solid blacl;
+	padding: 20px;
+	width:10px;
+	height:10px;
+	text-align: justify;
+	
+}
+	.set{
+	 position: absolute;
+    top: 80%; 
+	text-align:justify-content;
+    left: 32%; 
+    color: white; 
+	}
+	.child{
+		position: relative;
+	margin-bottom:19%;
+	height: 622px;
+	width: 155px;
+	background-color: rgba(228,15,104,0.863);
+margin-left: 70%;
+color: white;
+    padding: 3.9px;
+    text-align: center;
+	
+	}
+	
+	.a {
+  text-align: justify; /* For Edge */
+  -moz-text-align-last: center; /* For Firefox prior 58.0 */
+  text-align-last: center;
+  	letter-spacing:13px;
+			font-size:40px;
+
+
+}
+.b{  	letter-spacing:8px;
+		font-weight: 200;
+		font-size:30px;
+		
+}
+.c{
+	font-size: 45px;
+	position:relative;
+    top:7%;
+    left:0.1%; 
+    color: white; 
+	}
+	.c2{ 
+		font-size: 14px;
+	position: absolute;
+    top: 14%; 
+    left: 18%; 
+    color: white; 
+	}
+	.d{
+	font-size: 40px;
+	position:relative;
+    top:31%;
+    left:0.1%; 
+    color: white; 
+	}
+	.d2{ 
+		font-size: 19px;
+	position: absolute;
+    top: 47%; 
+    left: 14%; 
+    color: white;
+	}
+	.d3{
+	font-size: 8px;
+	position:relative;
+    top:35%;
+    left:0.1%; 
+    color: white; 
+	} 
+
+.g{ background-color: grey;
+  padding: 10px;
+    opacity: 0.3;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+<div class="screen">
+		<div class="screen__content">
+<div class="header">
+	<h1 class="a">C O R P O R A T E</h1>
+	<h1 class="b">FLYER TEMPLATE</h1> 
+ </div>
+
+<div class="color">
+ </div>
+
+
+
+
+<div class="child">
+
+	<h1 class="c">HEY!</h1>
+		<p class="c2">DESIGN TREND</p>
+	
+	<h1 class="d">CCO</h1>
+		<h1 class="d2">CCO BRAND</h1>
+		<p class="d3">YOUR PARTNER IN BUSINESS</p>
+	<p style="margin-top: 350px;"> <img src="qrcode.jpg"  width="70" height="70"></p>
+	<h6>www.website.com</h6>
+
+	</div>
+<div class="top-left-text">
+
+<span style="width: 8px; display: inline-block; height: 20px; background-color: rgb(255, 0, 140);"><p style="width: auto; display: inline-block; height: auto; margin-left: 20px; background-color:#3f3e3e9b;" class="top-left-text2">WE </p> </span><br><br>
+<span style="width: 8px; display: inline-block; height: 20px; background-color: rgb(255, 0, 140);"><p style="width: auto; display: inline-block; height: auto; margin-left: 20px; background-color: #3f3e3e9b;" class="top-left-text2">ARE </p> </span><br><br>
+<span style="width: 8px; display: inline-block; height: 20px; background-color: rgb(255, 0, 140);"><p style="width: 50px; display: inline-block; height: auto; margin-left: 20px; background-color: #3f3e3e9b;" class="top-left-text3">HERE</p> </span><br><br>
+<span style="width: 8px; display: inline-block; height: 20px; background-color: rgb(255, 0, 140);"><p style="width: 170px; display: inline-block; height: auto; margin-left: 20px; background-color: #3f3e3e9b;" class="top-left-text4">FOR YOUR COMPANY</p> </span><br><br>
+<!-- <p class="top-left-text2">ARE </p><br>
+<p class="top-left-text3">FOR YOUR COMPANY </p><br>
+<p class="top-left-text4">WE ARE HERE FOR YOUR COMPANY </pp> -->
+</div>
+
+
+
+ 
+
+</div>
+ <div class=" ">
+ <div class="center">
+  <h1 class="back">BACK</h1><br><br>
+  <h1 class="back1"> TO BUSINESS</h1>
+</div>
+
+<div style="z-index: 5; background-image: blue;">
+<div style="z-index: 5;" class="top-left-text0">
+	<span style="width: 8px; display: inline-block; height: 32px; background-color: rgb(255, 0, 140);"><p style="width: auto; display: inline-block; height: auto; margin-left: 20px; background-color: rgba(128, 128, 128, 0);" class="top-left-text1" >LEVEL&nbsp;UP </p> </span><br><br>
+
+<!-- <h1  style="background-color: red;" class="level">LEVELUP </h1><br> -->
+</div>
+<div class="set" style="z-index: 5;">
+ <h5 class="letter" style="z-index: 5;"><blockquote>Lorem Ipsum dolor sit amat. ei<br> adipisci conclusionemque mel. Ea<br> cum eripuit feugait suscipiantur.<br> sea eu zrii nobis. Et choro ignota<br> pertinacia mel, duo munere causae <br>legimus ex. Et accusam deterruisset<br> sed sint tacimates referrentur at <br>his, sea simul quando et.</blockquote></h5>
+</div>
+<div class="footer">
+<h1 class="back2" style="z-index: 5; width: 8px; display: inline-block; height: 32px; background-color: rgb(255, 0, 140);"> &nbsp;&nbsp;CONTECT&nbsp;US</h1>
+   <p class="con" style="z-index: 5;">Lorem ipsum dolor sit amet, el<br>
+     adiplscl concluslonemwue me.</p>
+  <h6 class="last1" style="z-index: 5;">MAIN STREET,LONDON 12/0: <b>ADDRESS </b> </h6>
+    <h6 class="last2" style="z-index: 5;">(000 1234 256 00):<b>PHONE</b> </h6>
+<h6 class="last3" style="z-index: 5;"> template@gmail.com:<b>MAIL</b> </h6>
+</div>
+</div>
+
+</div>
+</div>
+</div>
+
+</body>
+</html>
